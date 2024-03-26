@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocoon Space</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Yaldevi:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav_bar">
+            <div class="nav_headingDiv">
+                <h2 class="logo">cocoon space</h2>
+            </div>
+            <ul class="nav_ul">
+                <li class="nav_li ">
+                    <p class="nav_liHelp">Need help ?</p>
+                </li>
+                <li class="nav_li ">
+                    <a href="#" class="nav_liLogin">To log in</a>
+                </li>
+                <li class="nav_li ">
+                    <h4 class="nav_liRegister">Register</h4>
+                </li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="hero_search">
+                <div class="hero_searchAdrs">
+                    <label for="search_address" class="search_adrLable iconLable"><span class="icon"><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ff4338"
+                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                            </svg></span></label>
+                    <input type="text" class="search_adr srch_adr-prti" id="search_address"
+                        placeholder="Enter a city,an address">
+                </div>
+                <div class="hero_searchPrticipnt">
+                    <label for="drop_down" class="search_dropDown iconLable"><span class="icon"><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ff4338"
+                                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                            </svg></span></label>
+                    <select name="drop_down" id="drop_down" class="search_sel srch_adr-prti"
+                        aria-placeholder="attendees">
+                        <option value="No.prti" class="search_prtiOpt">1-4</option>
+                        <option value="No.prti" class="search_prtiOpt">4-8</option>
+                        <option value="No.prti" class="search_prtiOpt">8-12</option>
+                        <option value="No.prti" class="search_prtiOpt">12-16</option>
+                        <option value="No.prti" class="search_prtiOpt">16+</option>
+
+                    </select>
+                </div>
+                <button class="btn search_btn">See the Cocoons</button>
+            </div>
+            <div class="hero_text">
+                <p class="hero_textP">Simple.</p>
+                <p class="hero_textP">Cozy.</p>
+                <p class="hero_textP">Central.</p>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message_nav">
+                <div class="msgNav_logoText">
+                    <div class="msgNav_cocoonlogo">
+                        <img src="https://chat.frontapp.com/2d86b4dc2fdb29561932078b8969efe3/logo?v=1711258915859"
+                            alt="logo" width="10px">
+                    </div>
+                    <div class="msgNav_text">
+                        <h4 class="msgNav-texts">Cocoon Space</h4>
+                        <p class="msgNav-texts">Vous avez besoin d'aide ?</p>
+                    </div>
+                </div>
+                <div class="msgNav_icon">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#171d26"
+                                d="M344 0H488c13.3 0 24 10.7 24 24V168c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-39-39-87 87c-9.4 9.4-24.6 9.4-33.9 0l-32-32c-9.4-9.4-9.4-24.6 0-33.9l87-87L327 41c-6.9-6.9-8.9-17.2-5.2-26.2S334.3 0 344 0zM168 512H24c-13.3 0-24-10.7-24-24V344c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l39 39 87-87c9.4-9.4 24.6-9.4 33.9 0l32 32c9.4 9.4 9.4 24.6 0 33.9l-87 87 39 39c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8z" />
+                        </svg></span>
+                    <span class="icon icon2"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#ffffff"
+                                d="M256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM135 241c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 345c-9.4 9.4-24.6 9.4-33.9 0L135 241z" />
+                        </svg></span>
+                </div>
+            </div>
+            <div class="message_space"></div>
+            <div class="message_form">
+                <form action="#">
+                    <input type="email" class="srch_adr-prti" placeholder="Email">
+                    <hr />
+                    <textarea name="" class="srch_adr-prti" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                </form>
+            </div>
+            <div class="message_footer">
+                <span class="message_footerSpan">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#8c8c8c"
+                            d="M364.2 83.8c-24.4-24.4-64-24.4-88.4 0l-184 184c-42.1 42.1-42.1 110.3 0 152.4s110.3 42.1 152.4 0l152-152c10.9-10.9 28.7-10.9 39.6 0s10.9 28.7 0 39.6l-152 152c-64 64-167.6 64-231.6 0s-64-167.6 0-231.6l184-184c46.3-46.3 121.3-46.3 167.6 0s46.3 121.3 0 167.6l-176 176c-28.6 28.6-75 28.6-103.6 0s-28.6-75 0-103.6l144-144c10.9-10.9 28.7-10.9 39.6 0s10.9 28.7 0 39.6l-144 144c-6.7 6.7-6.7 17.7 0 24.4s17.7 6.7 24.4 0l176-176c24.4-24.4 24.4-64 0-88.4z" />
+                    </svg>
+                </span>
+                <span class="message_footerSpan">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#424242"
+                            d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="whatsCocoon">
+            <div class="whatsCocoon_heading">
+                <p class="whatsCocoon_headingP common_headings">What is a Cocoon?</p>
+            </div>
+            <div class="whatsCocoon_main">
+                <div class="whatsCocoon_mainImgsec">
+                    <div class="whatsCocoon_mainImg">
+                        <div class="mainImg1"><span class=" mainImgs">+</span></div>
+
+                        <div class="mainImg2"><span class=" mainImgs">+</span></div>
+                        <div class="mainImg34">
+                            <span class=" mainImgs mainImg3">+</span>
+                            <span class="mainImg4  mainImgs">+</span>
+                        </div>
+
+                    </div>
+                    <a href="#" class="whatsCocoon_mainImgL">
+                        <b>See the Cocoon Laos - Alexandre</b>
+                    </a>
+                </div>
+                <div class="whatsCocoon_mainP">
+                    <p class="cocoon_mainp1">Fully <b>equipped</b></p>
+                    <p class="cocoon_mainp2">Find all the equipment you need: TV screen, video projector, whiteboard and
+                        coffee machine, tea machine, water fountain.</p>
+                    <p class="cocoon_mainp3">And for those who wish, <b>we take care of your snacks and lunches</b>.</p>
+                </div>
+            </div>
+        </section>
+        <section class="how">
+            <div class="how_heading ">
+                <p class="heading_how common_headings">How it works ?</p>
+            </div>
+            <div class="how_main">
+                <div class="how_find">
+                    <div class="how_findText">
+                        <div class="how_textspan_div">
+                            <span class="how_textspan"> </span>
+                        </div>
+                        <div class="how_textHp">
+                            <h2 class="how_findText_h2 how_texth">Find a Cocoon</h2>
+                            <p class="how_findText_p how_textp">
+                                Find the Cocoon you need among more than 65 spaces <b>in the heart of Paris or Lyon</b>
+                                .
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how_findImg">
+                        <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fhome%2Fhow%2Ffind.png&w=384&q=75"
+                            alt="pic" class="how_findImg_img">
+                    </div>
+                </div>
+                <div class="how_book">
+                    <div class="how_bookText">
+                        <div class="how_textspan_div">
+                            <span class="how_textspan"> </span>
+                        </div>
+
+                        <div class="how_textHp">
+                            <h2 class="how_bookText_h2 how_texth">To book</h2>
+                            <p class="how_bookText_p how_textp">
+                                Reserve your Cocoon and pay online <b>for 1 hour</b> or the whole day.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="how_bookImg">
+                        <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fhome%2Fhow%2Fbook.png&w=384&q=75"
+                            alt="pic" class="how_bookImg_img">
+                    </div>
+
+                </div>
+                <div class="how_meet">
+                    <div class="how_meetText">
+                        <div class="how_textspan_div">
+                            <span class="how_textspan"> </span>
+                        </div>
+                        <div class="how_textHp">
+                            <h2 class="how_meetText_h2 how_texth">Meet</h2>
+                            <p class="how_meetText_p how_textp">
+                                Access your Cocoon independently,<b> without keys</b> using our application.
+                                <br /><br />/
+                                Wifi, TV screen, whiteboard, coffee machine... in the office or at home.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how_meetImg">
+                        <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fhome%2Fhow%2Fmeet.png&w=640&q=75"
+                            alt="pic" class="how_meetImg_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trust">
+            <div class="trust_heading">
+                <!-- <p class="common_headings trust_headingpNo">18000</p> -->
+                <p class="trust_headingp common_headings"><span>18,000 </span> companies already trust us</p>
+            </div>
+            <div class="trust_body">
+                <div class="trust_divs">
+                    <div class="trust_texth">
+                        <h3 class="trust_textH_h">Sonya, Executive Coach</h3>
+                        <p class="trust_textH_p">Coaching - Therapy</p>
+                    </div>
+                    <div class="trust_textPara">
+                        <p class="trust_textPara_p">The spaces are warm and confidential, it’s perfect for my coachees
+                            and me. Very good value for money with possibility of late cancellation and very efficient
+                            customer service</p>
+                    </div>
+                    <div class="trust_textF">
+                        <h4 class="trust_textF_h">Coaching session</h4>
+                        <p class="trust_textF_p">at Cocoon Marcel</p>
+                    </div>
+                </div>
+                <div class="trust_divs">
+                    <div class="trust_texth">
+                        <h4 class="trust_textH_h">Sylvain, CTO/Co-founder</h3>
+                            <p class="trust_textH_p">Baqio</p>
+                    </div>
+                    <div class="trust_textPara">
+                        <p class="trust_textPara_p">As our team is permanently teleworking, this Cocoon has become our
+                            usual meeting place for our team meetings every month. Always very satisfied with the
+                            service and the room!</p>
+                    </div>
+                    <div class="trust_textF">
+                        <h4 class="trust_textF_h">Recurring committee</h4>
+                        <p class="trust_textF_p">to Cocoon Jean</p>
+                    </div>
+                </div>
+                <div class="trust_divs">
+                    <div class="trust_texth">
+                        <h3 class="trust_textH_h">Yannick, COO</h3>
+                        <p class="trust_textH_p">Tubereach</p>
+                    </div>
+                    <div class="trust_textPara">
+                        <p class="trust_textPara_p">Several times a month, we bring together our teleworking teams in a
+                            Cocoon: this allows us to meet and discuss, each time with a room perfectly suited to our
+                            needs. THANKS !</p>
+                    </div>
+                    <div class="trust_textF">
+                        <h4 class="trust_textF_h">Offsite</h4>
+                        <p class="trust_textF_p">at Cocoon Baratie</p>
+                    </div>
+                </div>
+                <div class="trust_divs">
+                    <div class="trust_texth">
+                        <h3 class="trust_textH_h">Jocelyne, Customer success director</h3>
+                        <p class="trust_textH_p">VideoRunRun</p>
+                    </div>
+                    <div class="trust_textPara">
+                        <p class="trust_textPara_p">For may client presentations, I found the Cocoon ideal. Premium
+                            premises, in the center of Paris, fully equipped. The setting is very comfortable, perfect
+                            to meet the requirements of my major account clients :&#41;</p>
+                    </div>
+                    <div class="trust_textF">
+                        <h4 class="trust_textF_h">Customer presentation</h4>
+                        <p class="trust_textF_p">at Cocoon Email</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trust_logos">
+                <span class="trust_logo">
+                    <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fhome%2Fwho%2Fdoctolib.png&w=256&q=75"
+                        alt="" class="trust_logoImg">
+                </span>
+                <span class="trust_logo">
+                    <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fhome%2Fwho%2Fbackmarket.png&w=256&q=75"
+                        alt="" class="trust_logoImg">
+                </span>
+                <span class="trust_logo">
+                    <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fhome%2Fwho%2Fblablacar.png&w=256&q=75"
+                        alt="" class="trust_logoImg">
+                </span>
+                <span class="trust_logo">
+                    <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fhome%2Fwho%2Fmalt.png&w=256&q=75"
+                        alt="" class="trust_logoImg">
+                </span>
+                <span class="trust_logo">
+                    <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fhome%2Fwho%2Fpayfit.png&w=256&q=75"
+                        alt="" class="trust_logoImg">
+                </span>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_head">
+            <div class="nav_headingDiv fHead_logo">
+                <h2 class="logo">cocoon space</h2>
+                <p class="footer_headP">Office rental in Paris and Lyon</p>
+            </div>
+            <div class="footer_headRating">
+                <p class="footer_ratingP">4.8</p>
+                <img src="data:image/png;base64,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"
+                    class="footer_ratingImg">
+                <p class="footer_ratingP">449 reviews</p>
+            </div>
+        </div>
+        <div class="footer_main">
+            <div class="footer_loc footer_mainDiv">
+                <h4 class="footer_divh">The Cocoons</h4>
+                <a href="" class="footer_divL">In Paris</a>
+                <a href="" class="footer_divL">In Lyon</a>
+                <a href="" class="footer_divL"></a>
+            </div>
+            <div class="footer_about footer_mainDiv">
+                <h4 class="footer_divh">About</h4>
+                <a href="" class="footer_divL">Who are we ?</a>
+                <a href="" class="footer_divL">FAQs</a>
+                <a href="" class="footer_divL">Contact Us</a>
+            </div>
+            <div class="footer_offers footer_mainDiv">
+                <h4 class="footer_divh">Our offers</h4>
+                <a href="" class="footer_divL">Meeting room in Paris</a>
+                <a href="" class="footer_divL">Hourly office in Paris</a>
+                <a href="" class="footer_divL"></a>
+            </div>
+            <div class="footer_empty footer_mainDiv"></div>
+            <div class="footer_empty footer_mainDiv"></div>
+            <div class="footer_app footer_mainDiv">
+                <h4 class="footer_divh">The app</h4>
+                <a href="https://apps.apple.com/fr/app/cocoon-space/id1217025853" class="footer_divL">
+                    <img href="" src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fbadges%2Fapple_badge.png&w=256&q=75" class="footer_divLI" height="50px" width="10px">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.cocoonspaceapp" class="footer_divL"  >
+                    <img src="https://www.cocoon-space.com/_next/image?url=%2Fimages%2Fv2%2Fbadges%2Fgoogle_badge.png&w=256&q=75" class="footer_divLI" height="50px" width="10px">
+                </a> 
+            </div>
+        </div>
+        <div class="footer_social">
+            <div class="footer_socIcons">
+                <span class="footer_socIcon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#212121" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></span>
+                <span class="footer_socIcon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#212121" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></span>
+                <span class="footer_socIcon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#212121" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></span>
+                <span class="footer_socIcon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#212121" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg></span>
+            </div>
+            <div class="footer_socRules">
+                <a href="" class="footer_socRule">Rules of use</a>
+                <a href="" class="footer_socRule">Confidentiality</a>
+                <a href="" class="footer_socRule">CGU</a>
+
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <pre class="footer_copyrightP">Copyright © 2024 Cocoon Space</pre>
+        </div>
+    </footer>
+</body>
+
+</html>
